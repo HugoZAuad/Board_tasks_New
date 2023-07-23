@@ -1,0 +1,30 @@
+@use "../../global.scss" as *;
+
+
+.edit-inputs {
+    background-color: $Color-dark;
+    border: none;
+    color: $Color-white !important;
+    font-size: 1rem;
+
+    &::placeholder {
+        font-style: italic;
+        color: $Color-white !important;
+    }
+}
+
+.edit-task:before {
+        content: "Editar título: ";
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.1);
+        color: $Color-checked;
+    }
+
+.edit-description:before {
+        content: "Editar descrição: ";
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.1);
+        color: $Color-checked;
+    }

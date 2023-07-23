@@ -1,0 +1,40 @@
+@use "../../global.scss" as *;
+
+.Header {
+    background-color: $Color-blue;
+
+    &__menu-itens {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: $Color-blue;
+        height: 60px;
+    
+
+        li {
+            float: left;
+
+            a {
+                margin-left: 15px;
+                display: block;
+                color: $Color-white;
+                text-align: center;
+                padding: 15px;
+                text-decoration: none;
+                margin-top: 10px;
+                font-weight: 600;
+            }
+        }
+
+        &__focus{
+            a{
+            background-color: $Color-white;
+            color: $Color-blue !important;
+            border-radius: 10px 10px 0 0;
+            text-align: bottom;
+            padding: 15px 20px 15px 20px !important;
+            }
+        }
+    }
+}
