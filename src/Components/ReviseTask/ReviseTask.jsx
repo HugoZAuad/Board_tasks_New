@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import edit from "../../Assets/edit.svg";
-import "./index.scss";
+import "./Index.scss";
 
 const ReviseTask = ({ task, EditTask }) => {
     const [reviseTask, setReviseTask] = useState(task.title);
