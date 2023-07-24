@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import del from "../../Assets/delete.svg";
-import edit from "../../Assets/edit.svg";
-import completed from "../../Assets/completed.svg";
-import uncompleted from "../../Assets/uncompleted.svg";
+import del from "../../assets/delete.svg";
+import edit from "../../assets/edit.svg";
+import completed from "../../assets/completed.svg";
+import uncompleted from "../../assets/uncompleted.svg";
 import EditModal from "../Modals/EditModal";
 import DeleteModal from "../Modals/DeleteModal";
 import ReviseTask from "../ReviseTask/ReviseTask";
