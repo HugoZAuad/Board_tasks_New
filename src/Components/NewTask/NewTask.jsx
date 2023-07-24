@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import plus from "../../Assets/newTask.svg";
+import plus from "../../assets/newTask.svg";
 
 const NewTask = ({ addTask }) => {
     const [newTask, setNewTask] = useState("");
