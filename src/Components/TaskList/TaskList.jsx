@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./index.scss";
+import "./Index.scss";
 import NewTask from "../NewTask/NewTask";
 import ViewTasks from "../ViewTasks/ViewTasks";
 
