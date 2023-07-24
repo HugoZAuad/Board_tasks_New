@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.scss";
+import "./Index.scss";
 
 const Modal = ({ task, DeleteTask, onClose, show }) => {
     if (!show) return null;
