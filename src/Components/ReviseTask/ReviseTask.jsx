@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import edit from "../../Assets/edit.svg";
+import edit from "../../assets/edit.svg";
 import "./Index.scss";
 
 const ReviseTask = ({ task, EditTask }) => {
