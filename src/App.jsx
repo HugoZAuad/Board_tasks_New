@@ -24,6 +24,13 @@ const db = [
         completed: true,
         isEditing: false,
     },
+    {
+        id: 4,
+        title: "Trenios",
+        description: "Ir a academia e fazer os treinos passados",
+        completed: false,
+        isEditing: false,
+    },
 ];
 
 function App() {
